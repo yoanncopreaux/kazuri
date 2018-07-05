@@ -1,0 +1,56 @@
+body{
+
+}
+h1 {
+  color:darkgrey;
+  text-align: left;
+  margin-top: 40vh;
+  margin-left: 3%;
+  font-family: 'Abril Fatface', cursive;
+  font-size: 19vh;
+}
+h2{
+  font-family: 'Abel', sans-serif;
+  text-align: center;
+  margin-top: -11vh;
+  margin-left: 10vw;
+
+}
+#link{
+  text-decoration: none;
+  color:darkgrey;
+  font-size: 6vh;
+}
+.jumbotron{
+
+  margin-top: -3.8vh;
+  width:103.8%;
+  margin-left: -1.89%;
+}
+img{
+  width:100%;
+}
+.view {
+    background: url("https://mdbootstrap.com/img/Photos/Others/img (40).jpg")no-repeat center center;
+    background-size: cover;
+    color:black;
+}
+
+.navbar {
+    background-color: transparent;
+
+}
+
+.top-nav-collapse {
+    background-color: #4285F4;
+    color:black;
+}
+
+@media only screen and (max-width: 768px) {
+    .navbar {
+        background-color: #4285F4;
+    }
+}
+#kazuri{
+  font-family: 'Abel', sans-serif;
+}
