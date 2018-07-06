@@ -98,9 +98,13 @@ p{
   width:100%;
 }
 .contact{
-  margin-left: -90vw;
+  text-align: center;
 }
-
+.bd-example4-modal-lg{
+  width:50%;
+  margin-left: 20vw;
+  height:50%;
+}
 @media only screen and (max-width: 768px) {
   #body{
     background-image: url('img/trial2.jpeg');
