@@ -28,29 +28,99 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
-                    <a class="nav-link" href="#" style="color:black;">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="#" style="color:black;" data-toggle="modal" data-target=".bd-example3-modal-lg">Consulting <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#" style="color:black;">Link</a>
+                    <a class="nav-link" href="#" style="color:black;" data-toggle="modal" data-target=".bd-example-modal-lg">Web</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#" style="color:black;">Profile</a>
+                    <a class="nav-link" href="#" style="color:black;" data-toggle="modal" data-target=".bd-example2-modal-lg">Mobile</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#" style="color:black;" data-toggle="modal" data-target=".bd-example-modal-sm">Contacts</a>
                 </li>
             </ul>
         </div>
     </nav>
   </header>
-<body style="background-image:url('img/trial2.jpeg');background-size:cover;background-repeat:no-repeat;">
+<body style="background-image:url('img/trial2.jpeg');background-size:cover;background-repeat:no-repeat;" id="body">
 <section>
 
-<h1>Kazuri.</h1>
+<h1>Kazuri Agency.</h1>
 <h2>
   <a href="" id="link" class="typewrite" data-period="2000" data-type='[ "Web Development.", "Mobile Development.", "Business Consulting." ]'>
     <span class="wrap"></span>
   </a>
 </h2>
 
+
+<div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+        <span aria-hidden="true" style="margin-left:60vw;color:black;">&times;</span>
+        </button>
+      <h3>Web<br> Development</h3>
+      <img src="img/web-design.jpg">
+        <span><p>We do web development for all your business needs. In this day and age it is impossible to be a successful business without an online presence. We are your solution to this problem. We can find creative and unique solutions for your online presence, and can deliver to you in a short period of time!</p></span>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade bd-example2-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+        <span aria-hidden="true" style="margin-left:60vw;color:black;">&times; </span>
+      </button>
+      <h3>Mobile Development.</h3>
+      <img src="img/mobile2.jpg" id="photo">
+      <span><p>We do mobile development as well for all your needs. Technology is moving more into the Kenyan market and mobile development with it. Most people access their services from their phone, and it is the ideal space to do business with mpesa one click away.</p></span>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade bd-example3-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+
+
+      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+        <span aria-hidden="true" style="margin-left:60vw;color:black;">&times;</span>
+      </button>
+      <h3> Business <br>Consulting.</h3>
+      <img src="img/consulting.jpg" id="photo2">
+      <span><p>We do Business Consulting for your technological business needs. We track the most important trends in the market and advise your future to capitalize on them, in a way you can compete on a global scale. We try to incorporate google Adwords to track your digital footprint make sure you remain as relevant as possible.</p></span>
+    </div>
+    </div>
+  </div>
+
+  <div class="modal fade bd-example-modal-sm" id="centralModalSm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-sm" role="document">
+      <div class="modal-content">
+
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true" style="margin-left:20vw;color:black;">&times;</span>
+        </button>
+        <h3> Contact us</h3>
+
+        <div class="contact">
+        <span><p>email:</p>
+        </span>
+        </div>
+      </div>
+      </div>
+    </div>
+</div>
+
 </section>
+
+<!-- Frame Modal Bottom -->
+<div class="modal fade bottom" id="frameModalBottom" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+<div class="modal-dialog modal-frame modal-bottom" role="document">
+
+</div>
+</div>
 <!-- JQuery -->
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <!-- Bootstrap tooltips -->

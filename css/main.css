@@ -7,13 +7,13 @@ h1 {
   margin-top: 40vh;
   margin-left: 3%;
   font-family: 'Abril Fatface', cursive;
-  font-size: 19vh;
+  font-size: 559%;
 }
 h2{
   font-family: 'Abel', sans-serif;
-  text-align: center;
-  margin-top: -11vh;
-  margin-left: 10vw;
+  text-align: left;
+  margin-top: -1vh;
+  margin-left: 3vw;
 
 }
 #link{
@@ -28,7 +28,19 @@ h2{
   margin-left: -1.89%;
 }
 img{
-  width:100%;
+  width:40%;
+  margin-top: 2vh;
+  margin-left: 2vw;
+}
+#photo {
+  width:45%;
+  margin-top: 4vh;
+  margin-left: 2vw;
+}
+#photo2 {
+  width:45%;
+  margin-top: 1vh;
+  margin-left: 2vw;
 }
 .view {
     background: url("https://mdbootstrap.com/img/Photos/Others/img (40).jpg")no-repeat center center;
@@ -54,3 +66,43 @@ img{
 #kazuri{
   font-family: 'Abel', sans-serif;
 }
+.modal {
+  margin-top: 10vh;
+  height:80vh;
+}
+.modal-content {
+  height:80vh;
+  background-color: white;
+  opacity:0.9;
+}
+h3{
+  font-family: 'Abril Fatface', cursive;
+  color:black;
+  text-align: left;
+  font-size:300%;
+  margin-left: 2vw;
+  margin-top: -1vh;
+
+
+}
+p{
+  float:right;
+  text-align: left;
+  margin-left: 32vw;
+  margin-top: -45vh;
+  margin-right: 2vw;
+
+}
+
+#frameModalBottom{
+  width:100%;
+}
+.contact{
+  margin-left: -90vw;
+}
+
+@media only screen and (max-width: 768px) {
+  #body{
+    background-image: url('img/trial2.jpeg');
+
+  }
