@@ -2,30 +2,42 @@ body{
 
 }
 h1 {
-  color:darkgrey;
+  color:white;
   text-align: left;
-  margin-top: 40vh;
-  margin-left: 3%;
-  font-family: 'Abril Fatface', cursive;
-  font-size: 559%;
+  margin-top: 45vh;
+  margin-left: 2%;
+  font-family: 'Glegoo', serif;
+  font-size: 210%;
+
+}
+#logo {
+  font-family: 'Anton', sans-serif;
+  margin-top: -97vh;
+  font-size: 20vh;
+  margin-left: 3vw;
+  opacity:0.9;
 }
 h2{
-  font-family: 'Abel', sans-serif;
+  font-family: 'Glegoo', serif;
   text-align: left;
-  margin-top: -1vh;
-  margin-left: 3vw;
+  margin-top: 32.5%;
+  margin-left: 2vw;
+  font-size: 6vh;
+  color:white;
 
 }
 #link{
   text-decoration: none;
-  color:darkgrey;
+  color:white;
   font-size: 6vh;
+
 }
 .jumbotron{
 
   margin-top: -3.8vh;
   width:103.8%;
   margin-left: -1.89%;
+  height:auto;
 }
 img{
   width:40%;
@@ -54,13 +66,20 @@ img{
 }
 
 .top-nav-collapse {
-    background-color: #4285F4;
+    background-color: black;
     color:black;
 }
 
 @media only screen and (max-width: 768px) {
     .navbar {
-        background-color: #4285F4;
+        background-color: black;
+    }
+    #trial {
+        width:110.6%;
+        margin-top: 50vh;
+    }
+    #jumbo{
+        height:30%;
     }
 }
 #kazuri{
@@ -85,13 +104,13 @@ h3{
 
 
 }
-p{
-  float:right;
-  text-align: left;
-  margin-left: 32vw;
-  margin-top: -45vh;
-  margin-right: 2vw;
-
+.card {
+  margin-top: 5%;
+  width:80%;
+  height:190%;
+  margin-left:9%;
+  background-color: #e35a47;
+  font-family: font67518;
 }
 
 #frameModalBottom{
@@ -105,8 +124,26 @@ p{
   margin-left: 20vw;
   height:50%;
 }
-@media only screen and (max-width: 768px) {
-  #body{
-    background-image: url('img/trial2.jpeg');
 
+.jumbotron{
+  height:auto;
+  width:101.5%;
+
+
+}
+.parallax-window {
+    min-height: 400px;
+    Width:104.9%;
+    margin-left: -5%;
+    background: transparent;
+}
+section{
+  background-color: white;
+  height:60vh;
+}
+@media screen and (max-width: 736px){
+
+  #jumbo {
+    width:50vw;
   }
+}

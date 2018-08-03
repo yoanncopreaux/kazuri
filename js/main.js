@@ -1,3 +1,6 @@
+
+
+
 var TxtType = function(el, toRotate, period) {
         this.toRotate = toRotate;
         this.el = el;
@@ -54,7 +57,7 @@ var TxtType = function(el, toRotate, period) {
         css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #fff}";
         document.body.appendChild(css);
     };
-    
+
     $('#exampleModal').on('show.bs.modal', function(event) {
       var button = $(event.relatedTarget) // Button that triggered the modal
       var recipient = button.data('whatever') // Extract info from data-* attributes
@@ -64,3 +67,29 @@ var TxtType = function(el, toRotate, period) {
       modal.find('.modal-title').text('New message to ' + recipient)
       modal.find('.modal-body input').val(recipient)
     })
+
+    var svgAttributes = anime({
+    targets: '#svgAttributes polygon',
+    points: '64 128 8.574 96 8.574 32 64 0 119.426 32 119.426 96',
+    easing: 'easeInOutExpo'
+    });
+
+    anime({
+      targets: ['line', 'path'],
+      strokeDashoffset: [anime.setDashoffset, 0],
+      easing: 'easeInOutSine',
+      duration: 1500,
+      direction: 'alternate',
+      loop: true
+    });
+    var pathEl = anime.path('.path');
+    anime({
+      targets: '.item',
+      translateX: pathEl('x'),
+      translateY: pathEl('y'),
+      easing: 'easeInOutSine',
+      duration: 1500,
+      direction: 'alternate',
+      loop: true
+    });
+$('.parallax-window').parallax({imageSrc: '/path/to/image.jpg'});
