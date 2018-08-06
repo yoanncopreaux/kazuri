@@ -12,17 +12,17 @@ h1 {
 }
 #logo {
   font-family: 'Anton', sans-serif;
-  margin-top: -110vh;
+  margin-top: -52vh;
   font-size: 20vh;
-  margin-left: 6%;
+  margin-left: 3%;
 
 }
 h2{
   font-family: 'Glegoo', serif;
   text-align: left;
-  margin-top: 31.5%;
+  margin-top: -2vh;
   margin-bottom: 10vh;
-  margin-left: 2vw;
+  margin-left: 3vw;
   font-size: 4vh;
   color:white;
 
@@ -64,6 +64,10 @@ img{
 .navbar {
     background-color: transparent;
 
+}
+input,label,textarea{
+  font-family: 'Glegoo', serif;
+  color:black;
 }
 
 .top-nav-collapse {
