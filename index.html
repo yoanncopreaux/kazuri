@@ -36,19 +36,19 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item">
-                    <a class="nav-link" href="#" style="color:white;font-family: 'Glegoo', serif;font-size:3vh;" data-toggle="modal" data-target=".bd-example3-modal-lg">WHAT WE DO. <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="#whatitdo" style="color:white;font-family: 'Glegoo', serif;font-size:3vh;" id="whatButton">WHAT WE DO. <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#" style="color:white;font-family: 'Glegoo', serif;font-size:3vh;" data-toggle="modal" data-target=".bd-example-modal-lg">OUR PROCESS.</a>
+                    <a class="nav-link" href="#process" style="color:white;font-family: 'Glegoo', serif;font-size:3vh;" id="processButton">OUR PROCESS.</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#" style="color:white;font-family: 'Glegoo', serif;font-size:3vh;" data-toggle="modal" data-target=".bd-example-modal-lg">OUR VALUES.</a>
+                    <a class="nav-link" href="#values" style="color:white;font-family: 'Glegoo', serif;font-size:3vh;" id="valuesButton">OUR VALUES.</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#" style="color:white;font-family: 'Glegoo', serif;font-size:3vh;" data-toggle="modal" data-target=".bd-example2-modal-lg">ABOUT US.</a>
+                    <a class="nav-link" href="#about" style="color:white;font-family: 'Glegoo', serif;font-size:3vh;"id="aboutButton">ABOUT US.</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#" style="color:white;font-family: 'Glegoo', serif;font-size:3vh;" data-toggle="modal" data-target=".bd-example4-modal-lg">CONTACT US.</a>
+                    <a class="nav-link" href="#contact" style="color:white;font-family: 'Glegoo', serif;font-size:3vh;"id="contactButton">CONTACT US.</a>
                 </li>
             </ul>
         </div>
@@ -65,31 +65,35 @@
 
 
 
-<section><h3>WHAT WE DO.</h3></section>
+<section id="whatitdo">
+
+    <h3>WHAT WE DO.</h3>
+
+</section>
+
 <div class="parallax-window" data-parallax="scroll" data-image-src="img/jengabackground11.jpg"></div>
 
 
 
 
 
-
-<section><h3>OUR PROCESS.</h3></section>
+<section id="process"><h3>OUR PROCESS.</h3></section>
 <div class="parallax-window" data-parallax="scroll" data-image-src="img/jengabackground17.jpeg"></div>
 
 
-<section><h3>OUR VALUES.</h3></section>
+<section id="values"><h3>OUR VALUES.</h3></section>
 <div class="parallax-window" data-parallax="scroll" data-image-src="img/jengabackground16.jpeg"></div>
 
 
 
-<section><h3>ABOUT US.</h3></section>
+<section id="about"><h3>ABOUT US.</h3></section>
 <div class="parallax-window" data-parallax="scroll" data-image-src="img/jengabackground14.jpg"></div>
 
 
 
 
 
-<section><h3>CONTACT US.</h3></section>
+<section id="contact"><h3>CONTACT US.</h3></section>
 <div class="parallax-window" data-parallax="scroll" data-image-src="img/jengabackground6.jpeg"></div>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
@@ -98,6 +102,8 @@
 <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.2/TweenLite.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.1/TweenMax.min.js"></script>
+
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.2/plugins/CSSPlugin.min.js"></script>
 
 
@@ -111,6 +117,33 @@
 <!-- MDB core JavaScript -->
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.5.4/js/mdb.min.js"></script>
 <script type="text/javascript" src="js/main.js"></script>
+
+<script>
+$(document).ready(function(){
+  // Add smooth scrolling to all links
+  $("a").on('click', function(event) {
+
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+});
+</script>
 
 </body>
 </html>
