@@ -12,9 +12,9 @@ h1 {
 }
 #logo {
   font-family: 'Anton', sans-serif;
-  margin-top: -97vh;
+  margin-top: -110vh;
   font-size: 20vh;
-  margin-left: 4%;
+  margin-left: 6%;
 
 }
 h2{
@@ -23,14 +23,14 @@ h2{
   margin-top: 31.5%;
   margin-bottom: 10vh;
   margin-left: 2vw;
-  font-size: 6vh;
+  font-size: 4vh;
   color:white;
 
 }
 #link{
   text-decoration: none;
   color:white;
-  font-size: 6vh;
+  font-size: 4vh;
 
 }
 .jumbotron{
@@ -96,23 +96,23 @@ img{
   opacity:0.9;
 }
 h3{
-  font-family: 'Abril Fatface', cursive;
+  font-family: font67518;
   color:black;
   text-align: left;
-  font-size:300%;
+  font-size:450%;
   margin-left: 2vw;
   margin-top: -1vh;
 
 
 }
-.card {
+/* .card {
   margin-top: 5%;
   width:80%;
   height:190%;
   margin-left:9%;
   background-color: #e35a47;
   font-family: font67518;
-}
+} */
 
 #frameModalBottom{
   width:100%;
@@ -133,14 +133,30 @@ h3{
 
 }
 .parallax-window {
-    min-height: 400px;
+    min-height: 410px;
     Width:104.9%;
     margin-left: -5%;
     background: transparent;
 }
+
 section{
   background-color: white;
-  height:60vh;
+  height:70vh;
+}
+
+h4{
+  font-size: 285%;
+  font-family: 'Raleway', sans-serif;
+
+  display:inline-block;
+  text-align: center;
+
+
+}
+
+#strategy {
+  width:21vw;
+  margin-left: 2vw;
 }
 @media screen and (max-width: 736px){
 
