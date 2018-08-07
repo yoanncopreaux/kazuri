@@ -1,4 +1,23 @@
+// Regular map
+function regular_map() {
+    var var_location = new google.maps.LatLng(-1.292868, 36.793108);
 
+    var var_mapoptions = {
+        center: var_location,
+        zoom: 14
+    };
+
+    var var_map = new google.maps.Map(document.getElementById("map-container-8"),
+        var_mapoptions);
+
+    var var_marker = new google.maps.Marker({
+        position: var_location,
+        map: var_map,
+        title: "Nairobi"
+    });
+}
+
+google.maps.event.addDomListener(window, 'load', regular_map);
 var TxtType = function(el, toRotate, period) {
         this.toRotate = toRotate;
         this.el = el;

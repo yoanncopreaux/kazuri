@@ -21,20 +21,32 @@ h2{
   margin-top: -2vh;
   margin-bottom: 10vh;
   margin-left: 3vw;
-  font-size: 3.5vh;
+  font-size: 5vh;
   color:white;
 
+}
+#about,#values{
+  margin-top: -4vh;
+  padding:5%;
+}
+.card-text {
+  font-size: 180%;
+  font-family: 'Glegoo', serif;
+  margin-left: 2vw;
+}
+.card-body{
+  font-family: 'Glegoo', serif;
 }
 #link{
   text-decoration: none;
   color:white;
-  font-size: 3.5vh;
+  font-size: 5vh;
 
 }
 #vector1,#vector2,#vector3,#vector4{
 
   width:80%;
-  margin-left: 9vw;
+  margin-left: 9%;
 }
 p{
   font-size: 2.2vh;
@@ -123,10 +135,6 @@ h3{
 
 }
 
-
-#frameModalBottom{
-  width:100%;
-}
 .contact{
   text-align: center;
 }
@@ -166,10 +174,7 @@ section{
 
 }
 
-#whatitdo{
-  margin-top: -5vh;
-  height:auto;
-}
+
 @media screen and (max-width: 736px){
 
   #jumbo {
@@ -202,11 +207,20 @@ section{
     h3{
       font-size: 14vw;
     }
+    h6{
+      font-family: 'Glegoo', serif;
+      font-size: 250vh;
+    }
     .container-fluid {
       height: auto;
     }
-  #whatitdo{
+  #whatWedo{
     margin-top: -5vh;
+    display:inline-block;
+  }
+  .whatWedo{
+    display:inline-block;
+
   }
   .testimonial-card{
     margin-left:3vw;
