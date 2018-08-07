@@ -1,6 +1,4 @@
-body{
 
-}
 h1 {
   color:white;
   text-align: left;
@@ -12,7 +10,7 @@ h1 {
 }
 #logo {
   font-family: 'Anton', sans-serif;
-  margin-top: -52vh;
+  margin-top: -32vh;
   font-size: 20vh;
   margin-left: 3%;
 
@@ -23,27 +21,42 @@ h2{
   margin-top: -2vh;
   margin-bottom: 10vh;
   margin-left: 3vw;
-  font-size: 4vh;
+  font-size: 3.5vh;
   color:white;
 
 }
 #link{
   text-decoration: none;
   color:white;
-  font-size: 4vh;
+  font-size: 3.5vh;
 
 }
-.jumbotron{
+#vector1,#vector2,#vector3,#vector4{
 
-  margin-top: -3.8vh;
-  width:103.8%;
-  margin-left: -1.89%;
-  height:auto;
+  width:80%;
+  margin-left: 9vw;
+}
+p{
+  font-size: 2.2vh;
+}
+
+h4{
+  font-size: 285%;
+  font-family: 'Raleway', sans-serif;
+
+  display:inline-block;
+  text-align: center;
+
+}
+h5{
+  font-size: 200%;;
+  text-align: center;
+  font-family: 'Glegoo', serif;
 }
 img{
   width:40%;
   margin-top: 2vh;
-  margin-left: 2vw;
+  margin-left: 3vw;
 }
 #photo {
   width:45%;
@@ -138,26 +151,111 @@ h3{
 
 section{
   background-color: white;
-  height:70vh;
+  height:50vh;
 }
 
-h4{
-  font-size: 285%;
-  font-family: 'Raleway', sans-serif;
 
-  display:inline-block;
-  text-align: center;
-
-
+.container-fluid {
+  height: 90%;
 }
 
 #strategy {
-  width:21vw;
   margin-left: 2vw;
+  display:inline-block;
+  height:280vh;
+
+}
+
+#whatitdo{
+  margin-top: -5vh;
+  height:auto;
 }
 @media screen and (max-width: 736px){
 
   #jumbo {
     width:50vw;
   }
+}
+
+@media (max-width: 767px) {
+    #process {
+        width: 100%;
+        height:auto;
+    }
+
+    .bottom {
+      width:104.8%;
+    }
+    #logo {
+      font-size: 17vh;
+      margin-left: 7vw;
+
+    }
+    #link,h2 {
+      font-size:2.75vh;
+
+    }
+    h2{
+      margin-left: 7vw;
+
+    }
+    h3{
+      font-size: 14vw;
+    }
+    .container-fluid {
+      height: auto;
+    }
+  #whatitdo{
+    margin-top: -5vh;
+  }
+  .testimonial-card{
+    margin-left:3vw;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    #process {
+        width: 100%;
+        height:auto;
+    }
+    .container-fluid {
+      height: auto;
+    }
+    .testimonial-card{
+      margin-left:3vw;
+    }
+
+}
+@media (min-width: 992px) {
+    #process {
+
+        height:auto;
+    }
+    .container-fluid {
+      height: 120%;
+    }
+    .card testimonial-card {
+      height:90vh;
+      margin-left:3vw;
+    }
+}
+
+@media (min-width: 1124px) and (min-width:995px){
+    #process {
+
+        height:auto;
+    }
+    .container-fluid {
+      height: auto;
+    }
+    .card testimonial-card {
+      height:90vh;
+    }
+    .navbar {
+        background-color: black;
+    }
+
+    .top-nav-collapse {
+        background-color: black;
+        color:black;
+    }
 }
