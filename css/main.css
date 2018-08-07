@@ -103,6 +103,7 @@ input,label,textarea{
 @media only screen and (max-width: 768px) {
     .navbar {
         background-color: black;
+        color:black;
     }
     #trial {
         width:110.6%;
@@ -214,6 +215,10 @@ section{
     .container-fluid {
       height: auto;
     }
+    .navbar {
+        background-color: black;
+        color:black;
+    }
   #whatWedo{
     margin-top: -5vh;
     display:inline-block;
@@ -237,7 +242,10 @@ section{
     .testimonial-card{
       margin-left:3vw;
     }
-
+    .navbar {
+        background-color: black;
+        color:black;
+    }
 }
 @media (min-width: 992px) {
     #process {
@@ -250,6 +258,10 @@ section{
     .card testimonial-card {
       height:90vh;
       margin-left:3vw;
+    }
+    .navbar {
+        background-color: black;
+        color:black;
     }
 }
 
