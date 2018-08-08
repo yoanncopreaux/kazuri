@@ -25,23 +25,32 @@ h2{
   color:white;
 
 }
-#about,#values{
-  margin-top: -4vh;
+hr{
+  color:#154e63;
+  height:5%;
+}
+#about,#values,#whatWedo,#process,#contact{
+  padding-top: 5%;
   padding:3%;
   font-family: 'Glegoo', serif;
   font-size: 2.2vh;
   height:auto;
+  text-align: center;
 }
 .fa{
-  font-size: 160%;
+  font-size: 102%;
+  display:inline-block;
+
 }
 .card-text {
   font-size: 180%;
   font-family: 'Glegoo', serif;
   margin-left: 0.5vw;
+  text-align: center;
 }
 .card-body{
   font-family: 'Glegoo', serif;
+  text-align: center;
 }
 #link{
   text-decoration: none;
@@ -51,6 +60,10 @@ h2{
 }
 #whatWedo{
   padding:3.5%;
+  text-align: center;
+  display:inline-block;
+
+
 
 }
 #vector1,#vector2,#vector3,#vector4{
@@ -63,16 +76,17 @@ p{
 }
 
 h4{
-  font-size: 245%;
+  font-size: 265%;
   font-family: 'Glegoo', serif;
-  display:inline-block;
   text-align: center;
+  display:inline-block;
 
 }
 h5{
   font-size: 200%;;
   text-align: center;
   font-family: 'Glegoo', serif;
+  color:#20718e;
 }
 img{
   width:40%;
@@ -110,6 +124,15 @@ input,label,textarea{
 }
 #process {
   height:auto;
+  padding-top: 3%;
+  margin-bottom: 2%;
+
+}
+.testimonial-card {
+  height:103%;
+}
+#process-title{
+  padding-bottom: 2%;
 }
 @media only screen and (max-width: 768px) {
     .navbar {
@@ -137,12 +160,13 @@ input,label,textarea{
   opacity:0.9;
 }
 h3{
-  font-family: font67518;
-  color:black;
+  /* font-family: font67518; */
+  font-family: 'Anton', sans-serif;
+  color:#20718e;
   text-align: center;
-  font-size:450%;
+  font-size:600%;
   margin-left: 2vw;
-  margin-top: -1vh;
+  padding-top:1%;
 
 
 }
@@ -162,6 +186,8 @@ h3{
 
 
 }
+
+
 .parallax-window {
     min-height: 320px;
     Width:104.9%;
@@ -174,7 +200,7 @@ h3{
 footer {
   background-color: black;
   height:14.6vh;
-  margin-top: -1%;
+
   margin-bottom: -1%;
 
 }
@@ -275,7 +301,9 @@ section{
 }
 
 
-
+.fa {
+  display: block;
+}
 .bottom {
   width:99%;
 }
