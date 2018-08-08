@@ -273,10 +273,7 @@ section{
         color:black;
     }
 
-    #navbarSupportedContent {
-        margin-left: 40vw;
-        background-color: black;
-      }
+  
 }
 
 @media (min-width: 1124px) and (min-width:995px){
@@ -298,8 +295,5 @@ section{
         background-color: black;
         color:black;
     }
-    #navbarSupportedContent {
-        margin-left: 40vw;
-        background-color: #89cad8;
-      }
+
 }
