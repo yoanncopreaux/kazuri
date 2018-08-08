@@ -1,21 +1,47 @@
 // Regular map
 function regular_map() {
-    var var_location = new google.maps.LatLng(-1.292868, 36.793108);
+    var var_location = new google.maps.LatLng(-1.298141, 36.793038);
 
     var var_mapoptions = {
         center: var_location,
-        zoom: 14
+        zoom: 17
     };
 
     var var_map = new google.maps.Map(document.getElementById("map-container-8"),
         var_mapoptions);
 
+
+    var contentString = '<div id="content" style="height:auto;">'+
+      '<div id="siteNotice">'+
+      '</div>'+
+      '<div id="bodyContent" style="font-size:1.5%;">'+
+
+      '<p>Nairobi Garage'+ '<br>' + 'PineTree Plaza,'+'<br>'+ 'Ngong Road'+'<br>'+ 'Nairobi '+'<br>'+ 'Kenya</p>'
+      +
+      '<p><a href="https://www.google.com/maps/place/Nairobi+Garage/@-1.297347,36.793038,17z/data=!4m5!3m4!1s0x0:0x111775bb295f8d1f!8m2!3d-1.2981538!4d36.7930148?hl=en-US">'+
+      'View on Google maps</a> '+
+      '</p>'+
+      '</div>'+
+      '</div>';
+
+    var infowindow = new google.maps.InfoWindow({
+      content: contentString,
+      maxWidth: 250,
+      maxHeight:50
+
+    });
     var var_marker = new google.maps.Marker({
         position: var_location,
         map: var_map,
-        title: "Nairobi"
+        title: "Nairobi Garage"
     });
+
+
+var_marker.addListener('click', function() {
+  infowindow.open(var_map, var_marker);
+});
 }
+
 
 google.maps.event.addDomListener(window, 'load', regular_map);
 var TxtType = function(el, toRotate, period) {
