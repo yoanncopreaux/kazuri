@@ -230,6 +230,11 @@ section{
   .testimonial-card{
     margin-left:3vw;
   }
+  #navbarSupportedContent {
+  opacity:0.9;
+  background-color: black;
+  width:5vw;
+}
 }
 @media (min-width: 768px) and (max-width: 991px) {
     #process {
@@ -246,6 +251,10 @@ section{
         background-color: black;
         color:black;
     }
+    #navbarSupportedContent {
+        margin-left: 40vw;
+        background-color: black;
+      }
 }
 @media (min-width: 992px) {
     #process {
@@ -263,6 +272,11 @@ section{
         background-color: black;
         color:black;
     }
+
+    #navbarSupportedContent {
+        margin-left: 40vw;
+        background-color: black;
+      }
 }
 
 @media (min-width: 1124px) and (min-width:995px){
@@ -284,4 +298,8 @@ section{
         background-color: black;
         color:black;
     }
+    #navbarSupportedContent {
+        margin-left: 40vw;
+        background-color: #89cad8;
+      }
 }
