@@ -62,7 +62,7 @@ hr{
   padding:3.5%;
   text-align: center;
   display:inline-block;
-  margin-left: -10vw;
+
 
 
 
@@ -77,15 +77,16 @@ p{
 }
 
 h4{
-  font-size: 265%;
+  font-size: 5vh;
   font-family: 'Glegoo', serif;
   text-align: center;
   display:inline-block;
-  margin-left: 12vw;
+  padding-left: 5vw;
+
 
 }
 h5{
-  font-size: 200%;;
+  font-size: 180%;;
   text-align: center;
   font-family: 'Glegoo', serif;
   color:#20718e;
@@ -166,7 +167,7 @@ h3{
   font-family: 'Anton', sans-serif;
   color:#20718e;
   text-align: center;
-  font-size:600%;
+  font-size:500%;
   margin-left: 2vw;
   padding-top:1%;
 
@@ -324,7 +325,7 @@ section{
 
     }
     #DigitalStrategy{
-      margin-left: 6%;
+      margin-left: 70em;
     }
 
     #whatWedo{
@@ -417,6 +418,15 @@ section{
     #top-image{
       width:190vw;
     }
+    h4{
+      font-size: 190%;
+      font-family: 'Glegoo', serif;
+      text-align: center;
+      display:inline-block;
+      padding-left: -90vw;
+
+
+}
 }
 
 @media (min-width: 1124px) and (min-width:995px){
@@ -436,5 +446,13 @@ section{
         background-color: black;
         color:black;
     }
+    h4{
+      font-size: 190%;
+      font-family: 'Glegoo', serif;
+      text-align: center;
+      display:inline-block;
+      padding-left: -90vw;
 
+
+}
 }
