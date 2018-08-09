@@ -324,7 +324,7 @@ section{
 
     }
     #DigitalStrategy{
-      margin-left: 8%;
+      margin-left: 6%;
     }
 
     #whatWedo{
@@ -335,6 +335,9 @@ section{
     }
     #top-image{
       width:190vw;
+    }
+    #title{
+      margin-left: 130vw;
     }
 
 }
@@ -379,6 +382,9 @@ section{
       }
       #top-image{
         width:190vw;
+      }
+      #title{
+        margin-left: 130vw;
       }
 }
 @media (min-width: 992px) {
