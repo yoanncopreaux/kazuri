@@ -305,6 +305,7 @@ section{
     }
     #top-image{
       width:190%;
+      margin-left: 80%;
     }
 
     .fa {
@@ -323,7 +324,7 @@ section{
 
     }
     #DigitalStrategy{
-      margin-left: 8.3%;
+      margin-left: 8%;
     }
 
     #whatWedo{
@@ -356,6 +357,10 @@ section{
     #navbarSupportedContent {
         margin-left: 40vw;
         background-color: black;
+      }
+      #top-image{
+        width:190%;
+        margin-left: 80%;
       }
 
       #about,#values,#whatWedo,#process,#contact{
