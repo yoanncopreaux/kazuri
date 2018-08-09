@@ -387,6 +387,13 @@ section{
         margin-left: 130vw;
       }
 }
+
+@media (max-width: 500px) {
+
+  #process {
+    padding:10%;
+  }
+
 @media (min-width: 992px) {
     #process {
 
