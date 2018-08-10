@@ -29,6 +29,7 @@ hr{
   color:#154e63;
   height:5%;
 }
+
 #about,#values,#whatWedo,#process,#contact{
   padding-top: 5%;
   padding:3%;
@@ -38,7 +39,7 @@ hr{
   text-align: center;
 }
 .fa{
-  font-size: 102%;
+  font-size: 160%;
   display:inline-block;
 
 }
@@ -58,15 +59,8 @@ hr{
   font-size: 5vh;
 
 }
-#whatWedo{
-  padding:3.5%;
-  text-align: center;
-  display:inline-block;
 
 
-
-
-}
 #vector1,#vector2,#vector3,#vector4{
 
   width:80%;
@@ -79,10 +73,7 @@ p{
 h4{
   font-size: 5vh;
   font-family: 'Glegoo', serif;
-  text-align: center;
   display:inline-block;
-  padding-left: 5vw;
-
 
 }
 h5{
@@ -168,7 +159,7 @@ h3{
   color:#20718e;
   text-align: center;
   font-size:500%;
-  margin-left: 2vw;
+
   padding-top:1%;
 
 
@@ -236,9 +227,10 @@ section{
         #process {
             width: 100%;
             height:auto;
+            padding-top: 3%;
             padding-bottom: 10%;
-        }
 
+        }
         .bottom {
           width:104.8%;
         }
@@ -249,14 +241,18 @@ section{
         }
         #link,h2 {
           font-size:2.75vh;
-
         }
+
         h2{
           margin-left: 7vw;
 
         }
         h3{
           font-size: 14vw;
+        }
+        h4,.fa{
+          text-align: center;
+
         }
         h6{
           font-family: 'Glegoo', serif;
@@ -274,9 +270,7 @@ section{
         }
       #whatWedo{
         margin-top: -5vh;
-        /* display:inline-block; */
         text-align: center;
-        margin-left: -10vw;
       }
       .whatWedo{
         display:inline-block;
@@ -288,7 +282,7 @@ section{
       #navbarSupportedContent {
       opacity:0.9;
       background-color: black;
-      /* width:5vw; */
+
     }
     #about,#values{
       margin-top: -1vh;
@@ -297,16 +291,15 @@ section{
       font-size: 2.2vh;
       height:auto;
     }
-    #whatWedo {
-      /* margin-top: 8vh; */
 
+    #whatWedo {
       font-family: 'Glegoo', serif;
       font-size: 2.2vh;
       height:auto;
     }
+
     #top-image{
       width:190%;
-      margin-left: 80%;
     }
 
     .fa {
@@ -316,29 +309,14 @@ section{
       width:99%;
     }
     #about,#values,#whatWedo,#process{
-
       padding:13%;
       font-family: 'Glegoo', serif;
       font-size: 1.7vh;
       height:auto;
       text-align: center;
-
-    }
-    #DigitalStrategy{
-      margin-left: 70em;
-    }
-
-    #whatWedo{
-      margin-left: -10vw;
-    }
-    #contact{
-      padding: 100%;
     }
     #top-image{
-      width:190vw;
-    }
-    #title{
-      margin-left: 130vw;
+      width:290%;
     }
 
 }
@@ -362,10 +340,7 @@ section{
         margin-left: 40vw;
         background-color: black;
       }
-      #top-image{
-        width:190%;
-        margin-left: 80%;
-      }
+
 
       #about,#values,#whatWedo,#process,#contact{
         padding-top: 10%;
@@ -375,24 +350,22 @@ section{
         height:auto;
         text-align: center;
       }
-      #contact{
-        padding:10%;
+      #contactCard{
+        /* padding:10%; */
+        margin-top: -90vh;
       }
-      .contact{
-        padding:30vh;
-      }
+
       #top-image{
         width:190vw;
       }
-      #title{
-        margin-left: 130vw;
-      }
+
 }
 
 @media (max-width: 500px) {
 
-  #process {
-    padding:10%;
+  #process,#whatWedo,#about {
+    padding:15%;
+    margin-top: -10vh;
   }
 
 @media (min-width: 992px) {
@@ -423,11 +396,8 @@ section{
       font-family: 'Glegoo', serif;
       text-align: center;
       display:inline-block;
-      padding-left: -90vw;
-
-
-}
-}
+    }
+  }
 
 @media (min-width: 1124px) and (min-width:995px){
     #process {
@@ -441,7 +411,6 @@ section{
       height:90vh;
     }
 
-
     .top-nav-collapse {
         background-color: black;
         color:black;
@@ -451,8 +420,6 @@ section{
       font-family: 'Glegoo', serif;
       text-align: center;
       display:inline-block;
-      padding-left: -90vw;
-
-
-}
-}
+      padding-left: 90vw;
+    }
+  }
