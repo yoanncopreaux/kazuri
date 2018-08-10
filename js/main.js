@@ -16,7 +16,7 @@ function regular_map() {
       '</div>'+
       '<div id="bodyContent" style="font-size:1.5%;">'+
 
-      '<p>Nairobi Garage'+ '<br>' + 'PineTree Plaza,'+'<br>'+ 'Ngong Road'+'<br>'+ 'Nairobi '+'<br>'+ 'Kenya</p>'
+      '<p style="text-align:left;">Nairobi Garage'+ '<br>' + 'PineTree Plaza,'+'<br>'+ 'Ngong Road'+'<br>'+ 'Nairobi '+'<br>'+ 'Kenya</p>'
       +
       '<p><a href="https://www.google.com/maps/place/Nairobi+Garage/@-1.297347,36.793038,17z/data=!4m5!3m4!1s0x0:0x111775bb295f8d1f!8m2!3d-1.2981538!4d36.7930148?hl=en-US">'+
       'View on Google maps</a> '+
