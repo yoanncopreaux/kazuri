@@ -189,7 +189,7 @@
               <div class="row">
 
                 <div class="col-md-6 mb-4">
-                  <form action="https://formspree.io/lulumutuli24@gmail.com" method="POST" target="_blank">
+                  <form action="https://formspree.io/lulumutuli24@gmail.com" method="POST" target="_blank" name="myform">
                     <div class="md-form">
                       <input type="text" id="contact-name" class="form-control" placeholder="NAME" name="Name">
                     </div>
@@ -209,7 +209,7 @@
 
                   <div class="col-md-12" style="float:left;">
                       <div class="text-center">
-                        <button type="submit" class="btn btn-elegant" style="font-family: font67518;font-size:2vh;">SEND MESSAGE</button>
+                        <button type="submit" class="btn btn-elegant" style="font-family: font67518;font-size:2vh;" value="Set Cookie" onclick="WriteCookie();">SEND MESSAGE</button>
                       </div>
                   </div>
                   <!--Grid column-->
@@ -280,17 +280,21 @@ $('.navbar-nav>li>a').on('click', function(){
 });
 </script>
 
-
-<script>
-
-Cookies.set('name', 'value');
-
+<script type = "text/javascript">
+   <!--
+      function WriteCookie()
+      {
+         if( document.myform.name.value == "" ) and ( document.myform.email.value == ""){
+            alert("Enter some value!");
+            return;
+         }
+         cookievalue= escape(document.myform.name.value) + ";";
+         cookievalue2= escape(document.myform.email.value) + ";";
+         document.cookie="name=" + cookievalue;
+         document.cookie="name=" + cookievalue2;
+         // document.write ("Setting Cookies : " + "name=" + cookievalue );
+      }
+   //-->
 </script>
-
-
-
-
-
-
 </body>
 </html>
